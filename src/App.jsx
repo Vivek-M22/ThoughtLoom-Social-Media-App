@@ -27,7 +27,7 @@ function App() {
       <div className='w-full block'>
         <Header />
         <main>
-        TODO:  <Outlet />
+        ThoughtLoom - A platform for sharing ideas.<Outlet />
         </main>
         <Footer />
       </div>
