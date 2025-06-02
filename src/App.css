@@ -1,9 +1,8 @@
 #root {
   max-width: 100 vh;
-  margin: 0 auto;
-  padding: 0;
   text-align: center;
   background-color: #f9f9f9; 
+
 }
 
 .logo {
@@ -11,6 +10,7 @@
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
@@ -39,7 +39,17 @@
   border-radius: 8px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   background-color: white; 
+  width: 300px; 
+  height: 380px;
+  overflow: hidden;
 }
+
+.card img {
+  width: 100%;
+  height: auto; 
+  object-fit: cover;
+}
+
 
 .read-the-docs {
   color: #888;
