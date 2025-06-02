@@ -1,12 +1,12 @@
 #root {
   max-width: 100 vh;
   text-align: center;
-  background-color: #f9f9f9; 
+  background-color: #f9f9f9;
 
 }
 
 .logo {
-  height: 6em;
+  height: 10em;
   padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
@@ -35,18 +35,19 @@
 }
 
 .card {
-  padding: 2em;
+  padding: 1em; 
   border-radius: 8px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  background-color: white; 
-  width: 300px; 
-  height: 380px;
+  background-color: #B6BBC4;
+  width: 100%; 
+  max-width: 300px; 
+  height: 300px; 
   overflow: hidden;
 }
 
 .card img {
   width: 100%;
-  height: auto; 
+  height: auto ; 
   object-fit: cover;
 }
 

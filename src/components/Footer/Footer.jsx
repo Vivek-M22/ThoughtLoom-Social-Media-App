@@ -4,57 +4,44 @@ import Logo from '../Logo'
 
 function Footer() {
   return (
-    <section className="relative overflow-hidden py-10 bg-gray-400 border border-t-2 border-t-black">
+    <section className="relative overflow-hidden py-10 bg-lightblue " >
             <div className="relative z-10 mx-auto max-w-7xl px-4">
                 <div className="-m-6 flex flex-wrap">
                     <div className="w-full p-6 md:w-1/2 lg:w-5/12">
-                        <div className="flex h-full flex-col justify-between">
-                            <div className="mb-4 inline-flex items-center">
-                                <Logo width="100px" />
-                            </div>
-                            <div>
-                                <p className="text-sm text-gray-600">
-                                    &copy; Copyright 2025. All Rights Reserved by Vivek Makwana.
-                                </p>
-                            </div>
+                        <div className="flex h-full flex-col justify-between" >
+                        <div className=" flex flex-col items-start">
+                            <Logo width="200px" />
+                            <p className="text-sm text-purple-100">
+                                &copy; Copyright 2025.
+                                <p>All Rights Reserved by ThoughtLoom.</p>
+                            </p>
+                        </div>
                         </div>
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="text-left tracking-px mb-9 font-semibold uppercase text-sm text-gray-100">
                                 Company
                             </h3>
-                            <ul>
+                            <ul className=" text-left">
                                 <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
-                                        Features
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
+                                    Features
                                     </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
-                                        Pricing
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
+                                    Pricing
                                     </Link>
                                 </li>
                                 <li className="mb-4">
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
-                                        Affiliate Program
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
+                                    Affiliate Program
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link
-                                        className=" text-base font-medium text-gray-900 hover:text-gray-700"
-                                        to="/"
-                                    >
-                                        Press Kit
+                                    <Link className="text-base font-medium text-gray-900 hover:text-gray-700" to="/">
+                                    Press Kit
                                     </Link>
                                 </li>
                             </ul>
@@ -62,10 +49,10 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className=" text-left tracking-px mb-9  font-semibold uppercase text-sm text-gray-100">
                                 Support
                             </h3>
-                            <ul>
+                            <ul className='text-left'>
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"
@@ -103,10 +90,10 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-3/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="text-left tracking-px mb-9  font-semibold uppercase text-sm text-gray-100">
                                 Legals
                             </h3>
-                            <ul>
+                            <ul className='text-left'>
                                 <li className="mb-4">
                                     <Link
                                         className=" text-base font-medium text-gray-900 hover:text-gray-700"

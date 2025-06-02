@@ -23,11 +23,12 @@ function App() {
   }, [])
   
   return !loading ? (
-    <div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
+    <div className='min-h-screen flex flex-wrap content-between bg-purple-30'>
       <div className='w-full block'>
         <Header />
         <main>
-        ThoughtLoom - A platform for sharing ideas.<Outlet />
+        {/* <i>ThoughtLoom - A platform for sharing ideas.</i> */}
+        <Outlet />
         </main>
         <Footer />
       </div>
